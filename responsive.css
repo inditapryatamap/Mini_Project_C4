@@ -1,6 +1,5 @@
-    /* Untuk Tablet */
-    @media all and (max-width: 1400px) {
-     
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
     .lesson {
         width: 50%;
         margin-bottom: 50px;
@@ -17,13 +16,13 @@
     html {
         font-size:75%;
     }
-.form >form {
-    width: 100%;
-}
+    .form >form {
+        width: 100%;
     }
+}
 
     /* Untuk Smartphone */
-    @media all and (max-width: 670px) {
+@media all and (max-width: 670px) {
     .main-wrapper .main-item.item-1, .main-item.item-2,
     .main-item.item-3, .main-item.item-4 {
         background-size: 100%;
@@ -34,7 +33,7 @@
         overflow: auto;
         font-size: 14px;
     }
-
+    
     .lesson {
         width: 100%;
     }
@@ -45,10 +44,6 @@
     
     .btn {
         width: 100%;
-    }
-    
-    .facebook {
-        margin-bottom: 10px;
     }
     
     .top-wrapper {
@@ -79,7 +74,7 @@
     html {
         font-size:75%;
     }
-.form >form {
-    width: 100%;
-}
+    .form >form {
+        width: 100%;
     }
+}
