@@ -1,5 +1,6 @@
     /* Untuk Tablet */
-    @media all and (max-width: 1000px) {
+    @media all and (max-width: 1400px) {
+     
     .lesson {
         width: 50%;
         margin-bottom: 50px;
@@ -23,6 +24,17 @@
 
     /* Untuk Smartphone */
     @media all and (max-width: 670px) {
+    .main-wrapper .main-item.item-1, .main-item.item-2,
+    .main-item.item-3, .main-item.item-4 {
+        background-size: 100%;
+    }
+
+    .main-wrapper .main-item p{
+        width: 75%;
+        overflow: auto;
+        font-size: 14px;
+    }
+
     .lesson {
         width: 100%;
     }
